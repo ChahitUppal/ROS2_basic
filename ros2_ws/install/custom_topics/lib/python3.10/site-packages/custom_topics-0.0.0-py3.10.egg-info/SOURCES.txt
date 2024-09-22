@@ -9,6 +9,8 @@ setup.py
 ../../build/custom_topics/custom_topics.egg-info/top_level.txt
 ../../build/custom_topics/custom_topics.egg-info/zip-safe
 custom_topics/__init__.py
+custom_topics/data_publisher.py
+custom_topics/solution_publisher.py
 custom_topics/target_publisher.py
 resource/custom_topics
 test/test_copyright.py

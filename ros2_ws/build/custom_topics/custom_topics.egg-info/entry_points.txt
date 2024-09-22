@@ -1,3 +1,5 @@
 [console_scripts]
+data_publisher = custom_topics.data_publisher:main
+solution_publisher = custom_topics.solution_publisher:main
 target_publisher = custom_topics.target_publisher:main
 

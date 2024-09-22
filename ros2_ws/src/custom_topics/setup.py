@@ -21,6 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'target_publisher = custom_topics.target_publisher:main',
+            'solution_publisher = custom_topics.solution_publisher:main',
+            'data_publisher = custom_topics.data_publisher:main',
         ],
     },
 )

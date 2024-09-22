@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory
-WORKDIR /root/ros2_ws/src
+WORKDIR /root/ros2_ws
 
 # Build the workspace (this will be done on the host side)
 CMD ["/bin/bash"]
