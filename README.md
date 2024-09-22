@@ -8,5 +8,5 @@ Given two ROS topics /input(msgs/Int8MultiArray) and /target (msgs/Int8), return
 We use Docker for cross platform compatibility 
 Steps to build and run the docker:
 1) Build the docker image: docker build -t <docker name: will use ros2_custom_topics> .
-2) Running the container: docker run -it <docker name: ros2_custom_topics>
+2) Running the container (mounts the local directory): docker run -it --rm -v "$(pwd)/ros2_ws:/root/ros2_ws" <docker name: ros2_custom_topics> 
 3) Starting additional sessions: docker exec -it <docker name: ros2_custom_topics> bash
