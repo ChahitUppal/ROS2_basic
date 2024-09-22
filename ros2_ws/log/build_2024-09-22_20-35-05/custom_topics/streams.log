@@ -1,0 +1,33 @@
+[0.552s] Invoking command in '/root/ros2_ws/src/custom_topics': PYTHONPATH=/root/ros2_ws/build/custom_topics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/custom_topics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/custom_topics build --build-base /root/ros2_ws/build/custom_topics/build install --record /root/ros2_ws/build/custom_topics/install.log --single-version-externally-managed install_data
+[0.751s] running egg_info
+[0.752s] creating ../../build/custom_topics/custom_topics.egg-info
+[0.753s] writing ../../build/custom_topics/custom_topics.egg-info/PKG-INFO
+[0.753s] writing dependency_links to ../../build/custom_topics/custom_topics.egg-info/dependency_links.txt
+[0.754s] writing entry points to ../../build/custom_topics/custom_topics.egg-info/entry_points.txt
+[0.754s] writing requirements to ../../build/custom_topics/custom_topics.egg-info/requires.txt
+[0.755s] writing top-level names to ../../build/custom_topics/custom_topics.egg-info/top_level.txt
+[0.755s] writing manifest file '../../build/custom_topics/custom_topics.egg-info/SOURCES.txt'
+[0.757s] reading manifest file '../../build/custom_topics/custom_topics.egg-info/SOURCES.txt'
+[0.758s] writing manifest file '../../build/custom_topics/custom_topics.egg-info/SOURCES.txt'
+[0.758s] running build
+[0.759s] running build_py
+[0.759s] creating /root/ros2_ws/build/custom_topics/build
+[0.760s] creating /root/ros2_ws/build/custom_topics/build/lib
+[0.760s] creating /root/ros2_ws/build/custom_topics/build/lib/custom_topics
+[0.760s] copying custom_topics/__init__.py -> /root/ros2_ws/build/custom_topics/build/lib/custom_topics
+[0.761s] running install
+[0.761s] running install_lib
+[0.762s] creating /root/ros2_ws/install/custom_topics/lib/python3.10/site-packages/custom_topics
+[0.762s] copying /root/ros2_ws/build/custom_topics/build/lib/custom_topics/__init__.py -> /root/ros2_ws/install/custom_topics/lib/python3.10/site-packages/custom_topics
+[0.763s] byte-compiling /root/ros2_ws/install/custom_topics/lib/python3.10/site-packages/custom_topics/__init__.py to __init__.cpython-310.pyc
+[0.764s] running install_data
+[0.765s] creating /root/ros2_ws/install/custom_topics/share/ament_index
+[0.765s] creating /root/ros2_ws/install/custom_topics/share/ament_index/resource_index
+[0.765s] creating /root/ros2_ws/install/custom_topics/share/ament_index/resource_index/packages
+[0.766s] copying resource/custom_topics -> /root/ros2_ws/install/custom_topics/share/ament_index/resource_index/packages
+[0.766s] copying package.xml -> /root/ros2_ws/install/custom_topics/share/custom_topics
+[0.766s] running install_egg_info
+[0.768s] Copying ../../build/custom_topics/custom_topics.egg-info to /root/ros2_ws/install/custom_topics/lib/python3.10/site-packages/custom_topics-0.0.0-py3.10.egg-info
+[0.773s] running install_scripts
+[0.795s] writing list of installed files to '/root/ros2_ws/build/custom_topics/install.log'
+[0.810s] Invoked command in '/root/ros2_ws/src/custom_topics' returned '0': PYTHONPATH=/root/ros2_ws/build/custom_topics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/custom_topics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/custom_topics build --build-base /root/ros2_ws/build/custom_topics/build install --record /root/ros2_ws/build/custom_topics/install.log --single-version-externally-managed install_data
